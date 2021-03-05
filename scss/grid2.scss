@@ -1,0 +1,69 @@
+.grid2 {
+    .column {
+        width: 100%; height: 100%;
+        display: flex; flex-direction: column;
+        background: $vPaleYellow;
+        align-items: center;
+        overflow-x: hidden;
+        .banner {
+            font-family: 'neue_montrealmedium'; text-transform: uppercase;
+            font-size: 45px; display: flex; align-items: center; justify-content: flex-start;
+            width: 3600px; background: $paleYellow; height: 80px;
+            margin-left: 2300px;
+            div:nth-child(1) {
+                margin-left: 50px;
+            }
+            div {
+                padding-left: 0px; padding-right: 60px;
+                text-align: center; display: flex; align-items: center;
+                .circle {
+                    width: 10px; height: 10px;
+                    background: black; border-radius: 50%;
+                    z-index: 100; margin-left: 50px;
+                }
+            }
+        }
+        .imageOuter {
+            width: 85%;
+            height: 550px;
+            background-image: url('../images/5.jpg');
+            background-position: center;
+            background-size: cover;
+            margin-top: 60px;
+            border-radius: 50px;
+            .imageInner {
+                padding-left: 25px;
+                margin-top: 20px;
+                font-family: 'neue_montrealmedium'; font-size: 40px;
+            }
+        }
+        .text {
+            font-family: 'neue_montrealmedium'; font-size: 30px;
+            width: 60%;
+            margin-top: 50px;
+            text-align: center;
+        }
+        .containRow {
+            margin-top: 50px;
+            width: 30%;
+            display: flex;
+            .btn {
+                width: 82.5%;
+                border: 4.5px solid black;
+                background: transparent;
+                height: 70px; line-height: 70px;
+                text-align: center; 
+                font-family: 'neue_montrealregular'; text-transform: uppercase;
+                font-size: 26px; font-weight: 600;
+            }
+            .arrow {
+                width: 17.5%; height: 70px;
+                background: $orange;
+                border: 4.5px solid black;
+                margin-left: -4px;
+                display: flex; justify-content: center; align-items: center;
+                font-size: 30px; font-weight: 600;
+            }
+        }
+    }
+}

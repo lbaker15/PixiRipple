@@ -1,0 +1,52 @@
+@import '_variables.scss';
+@import 'fonts.scss';
+
+.grid1 {
+    display: flex;
+    .left {
+        width: 45%;
+        float: left;
+        background: $paleGrey;
+        height: 100%;
+        .header {
+            font-family: 'neue_montrealregular';
+            text-transform: uppercase;
+            font-size: 60px;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 125px;
+            font-weight: 600;
+            margin-bottom: 200px;
+        }
+        .containRow {
+            display: flex;
+            width: 80%;
+            margin-left: 10%;
+            .btn {
+                width: 82.5%;
+                border: 4.5px solid black;
+                background: transparent;
+                height: 70px; line-height: 70px;
+                text-align: center; 
+                font-family: 'neue_montrealregular'; text-transform: uppercase;
+                font-size: 26px; font-weight: 600;
+            }
+            .arrow {
+                width: 17.5%; height: 70px;
+                background: $orange;
+                border: 4.5px solid black;
+                margin-left: -4px;
+                display: flex; justify-content: center; align-items: center;
+                font-size: 30px; font-weight: 600;
+            }
+        }
+    }
+    .right {
+        width: 55%;
+        margin-left: 0px;
+        background-image: url('../images/3.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+}

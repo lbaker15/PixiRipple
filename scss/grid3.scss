@@ -1,0 +1,65 @@
+.flex3 {
+    font-family: 'neue_montrealmedium';
+    .innerflex1 {
+        background: $grey;
+        .image {
+            width: 80%;
+            height: 550px;
+            margin-left: 10%;
+            margin-top: -50px;
+            background-image: url('../images/5.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .text {
+            margin-left: 10%;
+            margin-top: 20px;
+            font-size: 27.5px;
+            width: 80%;
+        }
+        .btnHolder {
+            display: flex;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 50px;
+            .btn {  
+                width: 80%;
+                border: 3.5px solid black;
+                height: 50px; line-height: 50px;
+                text-align: center; font-size: 18px;
+            }
+            .arrow {
+                width: 17.5%; height: 50px;
+                // background: $orange;
+                border: 3.5px solid black;
+                margin-left: -3.5px;
+                display: flex; justify-content: center; align-items: center;
+                font-size: 30px; font-weight: 600;
+            }
+        }
+    }
+    .innerflex2 {
+        background: $paleYellow;
+        .image {
+            width: 80%;
+            height: 600px;
+            margin-left: 10%;
+            margin-top: -50px;
+            background-image: url('../images/3.jpg');
+            background-size: cover;
+            background-position: center;
+            .orange {
+                background:rgba(255, 77, 22, 0.507);
+                mix-blend-mode: screen;
+            }
+        }
+        .text {
+            margin-left: 10%;
+            margin-top: 20px;
+            font-size: 67.5px;
+            text-transform: uppercase;
+            width: 80%;
+        }
+        
+    }
+}
